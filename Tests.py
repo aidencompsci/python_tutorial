@@ -4,9 +4,12 @@
 
 from types import FunctionType
 import tests.lesson2 as l2
+import tests.lesson3 as l3
 
 tests = {
-    "lesson2_test1": l2.lesson2_test1
+    "lesson2_test1": l2.lesson2_test1,
+    "lesson3_test1": l3.lesson3_test1,
+    "lesson3_test2": l3.lesson3_test2,
 }
 
 def test(testname: str):
